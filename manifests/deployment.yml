@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: souravbpipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: souravbpipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: souravbpipelinesjavascriptdocker 
+          image: my1acr.azurecr.io/souravbpipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080
