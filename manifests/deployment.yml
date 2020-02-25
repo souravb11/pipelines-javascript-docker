@@ -13,4 +13,4 @@ spec:
         - name: souravbpipelinesjavascriptdocker 
           image: my1acr.azurecr.io/souravbpipelinesjavascriptdocker
           ports:
-          - containerPort: 8080
+          - containerPort: 9092
